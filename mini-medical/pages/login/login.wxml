@@ -1,11 +1,32 @@
 <!--pages/login/login.wxml-->
-<text>pages/login/login.wxml</text>
-<van-button color="#7232dd" plain>单色按钮</van-button>
+<!-- <text>pages/login/login.wxml</text> -->
+<!-- <van-button color="#7232dd" plain>单色按钮</van-button> -->
 <view class="login">
     <view class="header">
-    <image></image>
+        <image class="banner" src="./../../static/images/banner5.jpg"></image>
     </view>
+    <!-- <image class="logo" src="./../../static/images/logo.jpg"></image> -->
 
-    <view class="container">
+    <!-- Tab布局 -->
+    <view class='navBox'>
+        <view class='titleBox' bindtap='titleClick' data-idx='0'>
+            <text class="{{0 == currentIndex ? 'fontColorBox' : ''}}">登录</text>
+            <hr class="{{0 == currentIndex ? 'lineBox' : 'notLineBox'}}" />
+        </view>
+        <view class='titleBox' bindtap='titleClick' data-idx='1'>
+            <text class="{{1 == currentIndex ? 'fontColorBox1' : ''}}">注册</text>
+            <hr class="{{1 == currentIndex ? 'lineBox' : 'notLineBox'}} " />
+        </view>
     </view>
+    <!-- 内容布局 -->
+    <swiper class='swiperTtemBox' bindchange='pagechange' current='{{currentIndex}}'>
+        <swiper-item class='swiperTtemBox'>
+            <c-from text="提交" ></c-from>
+        </swiper-item>
+        <swiper-item class='swiperTtemBox'>
+            <c-from text="注册" page-type="true"></c-from>
+        </swiper-item>
+    </swiper>
+
+
 </view>

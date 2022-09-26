@@ -1,1 +1,94 @@
 /* pages/login/login.wxss */
+.banner{
+    width: 100%;
+    height: 400rpx;
+    /* opacity: 0.3; */
+}
+.header {
+    position: relative;
+  }
+.login{
+    height: 100rpx ;
+}
+/* .banner::after {
+    /* background-color: #ace1fcc2; 
+    background-color: #41b5f0;
+    content: '';
+    width: 160%;
+    height: 50rpx;
+    position: absolute;
+    left: -30%;
+    top:500rpx;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+} */
+
+.logo{
+    width: 200rpx;
+    height: 200rpx;
+    position: absolute;
+    left: 50%;
+    top: 250rpx;
+    margin-left: -100rpx;
+}
+
+/* Page {
+    background: rgb(244, 245, 249);
+    height: 100%;
+    position: fixed;
+} */
+
+.fontColorBox,
+.fontColorBox1 {
+    /* 文字默认颜色 */
+    color: black;
+}
+
+.navBox {
+    /* 顶部tab盒子样式 */
+    width: 100%;
+    margin-top: 100rpx;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBox view:last-child {
+    /* 最后一个tab标题的样式 */
+    padding-left: 20%;
+}
+
+.titleBox {
+    /* 未选中文字的样式 */
+    color: rgb(168, 170, 175);
+    font-size: 30rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lineBox,.notLineBox{
+    /* 选中及未选中底线共同样式 */
+    width: 64rpx;
+    height: 8rpx;
+}
+
+.lineBox {
+    /* 选中底线样式 */
+    background:#07C160;
+    margin-top: 16rpx;
+    border-radius: 4rpx;
+}
+
+.notLineBox {
+    /* 未选中底线样式 */
+    background: transparent;
+}
+
+.swiperTtemBox {
+    height: 50vh;
+    /* overflow: scroll; */
+    margin: 12rpx 0rpx;
+    background: white;
+    font-size: 28rpx;
+}

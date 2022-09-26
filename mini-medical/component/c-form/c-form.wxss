@@ -1,0 +1,16 @@
+/* component/c-form/c-form.wxss */
+.type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 475rpx;
+    padding: 20rpx 0 20rpx  120rpx;
+    color: rgb(97, 96, 96);
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+.type-text{
+   padding-right: 30rpx;
+}
+van-radio-group{
+   margin-top: 7rpx;
+}
