@@ -13,11 +13,13 @@ Page({
   },
   // 事件处理函数
   bindViewTap() {
+      console.log(999)
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
   onLoad() {
+      console.log('onLoad')
     if (wx.getUserProfile) {
       this.setData({
         canIUseGetUserProfile: true
@@ -29,7 +31,7 @@ Page({
     wx.getUserProfile({
       desc: '展示用户信息', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
       success: (res) => {
-        console.log(res)
+        console.log(res.userInfo)
         this.setData({
           userInfo: res.userInfo,
           hasUserInfo: true

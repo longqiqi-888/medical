@@ -1,0 +1,10 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+<view class="login">
+    <view class="header">
+    <image></image>
+    </view>
+
+    <view class="container">
+    </view>
+</view>
