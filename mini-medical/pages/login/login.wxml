@@ -1,5 +1,6 @@
 <!--pages/login/login.wxml-->
-<!-- <text>pages/login/login.wxml</text> -->
+<text>pages/login/login.wxml</text>
+<van-button color="#7232dd" plain>单色按钮</van-button>
 <view class="login">
     <view class="header">
     <image></image>
