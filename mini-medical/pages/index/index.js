@@ -9,11 +9,19 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     canIUseGetUserProfile: false,
-    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName'), // 如需尝试获取用户信息可改为false
+    arr:[
+        {"name":'预约问诊',"id":1,"img":"./../../static/预约挂号.png"},
+        {"name":'病情问诊',"id":2,"img":"./../../static/体检报告.png"},
+        {"name":'体检报告',"id":3,"img":"./../../static/验资报告.png"},
+        {"name":'健康资讯',"id":4,"img":"./../../static/编辑文章.png"},
+        {"name":'健康测试',"id":5,"img":"./../../static/药品.png"},
+    ]
   },
   // 事件处理函数
   bindViewTap() {
-      console.log(999)
+      console.log(this.arr)
+    
     wx.navigateTo({
       url: '../logs/logs'
     })

@@ -1,7 +1,8 @@
 {
     "pages": [
-        "pages/login/login",
         "pages/index/index",
+        "pages/login/login",
+        
         "pages/logs/logs",
         "pages/register/register",
         "pages/appointment/appointment",
@@ -12,8 +13,8 @@
     ],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
+        "navigationBarBackgroundColor": "#109ECC",
+        "navigationBarTitleText": "首页",
         "navigationBarTextStyle": "black"
     },
     "sitemapLocation": "sitemap.json",

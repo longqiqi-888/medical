@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<!-- <view class="container">
   <view class="userinfo">
   <view>{{canIUseOpenData}}</view>
     <block wx:if="{{canIUseOpenData}}">
@@ -15,11 +15,41 @@
     </block>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <!-- <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
+      <!-- <text class="userinfo-nickname">{{userInfo.nickName}}</text> 
       <view>555</view>
     </block>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+</view> -->
+
+<view class="index">
+<!-- <view class="header">搜索</view> -->
+<view class="header">
+    <image class="header-img" src="./../../static/banner.jpeg"></image>
+</view>
+
+<view class="container">
+<!-- 选择功能-图标 -->
+<block wx:for="{{arr}}">
+    <view class="con-item">
+    <image bindtap="bindViewTap" class="con-img" src="{{item.img}}"></image>
+    <view class="con-text">{{item.name}}</view>
+</view>
+</block>
+
+</view>
+
+<view class="doc-container">
+    <view class="doc-title">附近医院</view>
+    <view class="doc-item">
+        <image class="doc-img" src="./../../static/doctor_female.png"></image>
+        <view class="doc-info">
+            <view class="doc-info-name">医院名称</view>
+            <view class="doc-info-add">医院地址</view>
+
+        </view>
+    </view>
+</view>
 </view>
