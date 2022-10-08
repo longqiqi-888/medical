@@ -1,8 +1,8 @@
 {
     "pages": [
+        "pages/my/my",
         "pages/index/index",
         "pages/login/login",
-        
         "pages/logs/logs",
         "pages/register/register",
         "pages/appointment/appointment",
@@ -10,6 +10,7 @@
         "pages/treatment/treatment",
         "pages/article/article",
         "pages/health/health"
+       
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -19,17 +20,30 @@
     },
     "sitemapLocation": "sitemap.json",
     "usingComponents": {
-        "van-button":"@vant/weapp/button/index",
-        "van-form":"@vant/weapp/cell/index",
-        "van-cell-group":"@vant/weapp/cell-group/index",
-        "van-field":"@vant/weapp/field/index",
+        "van-button": "@vant/weapp/button/index",
+        "van-form": "@vant/weapp/cell/index",
+        "van-cell-group": "@vant/weapp/cell-group/index",
+        "van-field": "@vant/weapp/field/index",
         "van-radio": "@vant/weapp/radio/index",
         "van-radio-group": "@vant/weapp/radio-group/index",
-        "van-popup":"@vant/weapp/popup/index",
-        "van-picker":"@vant/weapp/picker/index",
+        "van-popup": "@vant/weapp/popup/index",
+        "van-picker": "@vant/weapp/picker/index",
         "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
         "van-dropdown-item": "@vant/weapp/dropdown-item/index"
-       
-
+    },
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "#000000",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/login/login",
+                "text": "我的"
+            }
+        ]
     }
 }

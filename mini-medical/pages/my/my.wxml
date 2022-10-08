@@ -1,0 +1,33 @@
+<!--pages/my/my.wxml-->
+
+<view class="my">
+<view class="user">
+<view class="user-info">
+<!-- <image class="user-img"></image>
+<text class="user-name">username</text> -->
+</view>
+
+
+</view>
+<view class="container-list">
+    <view class="my-container"  wx:for="{{myData}}">
+    <view class="con-item">
+        <text class="con-text"> {{item}} </text>
+        <view class="con-go"> > </view>
+    </view>
+</view>
+
+<view class="my-list"  wx:for="{{myList}}">
+    <view class="con-item">
+        <text class="con-text"> {{item}} </text>
+        <view class="con-go"> > </view>
+    </view>
+</view>
+
+
+</view>
+
+
+
+
+</view>
