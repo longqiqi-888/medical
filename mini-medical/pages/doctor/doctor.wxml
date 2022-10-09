@@ -1,0 +1,25 @@
+<!--pages/doctor/doctor.wxml-->
+
+<view class="doctor">
+<!-- 医护人员--医生信息 -->
+    <!-- <view class="doctor-info flex-alcenter" >
+        <image class="doctor-img"></image>
+        <view class="doctor-username">
+            <text>医院名字</text>
+        </view>
+    </view> -->
+
+    <view class="my-container">
+        <view class="doctor-item">
+            <view class="doctor-id">id</view>
+            <view class="doctor-info">
+                <image class="doctor-img"></image>
+               <view class="doctor-message">
+                <view class="doctor-name">姓名</view>
+                <view class="doctor-text">信息</view>
+               </view>
+            </view>
+            <button class="doctor-btn" size="mini" bindtap="onShareAppMessage">查看详情</button>
+        </view>
+    </view>
+</view>

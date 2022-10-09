@@ -12,20 +12,21 @@
     width: 200rpx;
     height: 200rpx;
 }
-.container-list{
+.container-list,.container-my-list{
     background-color: #fff;
 }
-.my-container,.my-list{
+.container-my-list{
+    margin-top: 30rpx;
+}
+/* .my-container,.my-list{
     
     margin-top: 10rpx;
     padding: 25rpx 50rpx;
     border: 1rpx solid #eee;
     font-size: 32rpx;
-}
+} */
 
-.my-list{
-    margin-top: 30rpx;
-}
+
 
 .con-item{
     display: flex;

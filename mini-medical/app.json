@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/doctor/doctor",
         "pages/my/my",
         "pages/index/index",
         "pages/login/login",
@@ -10,7 +11,7 @@
         "pages/treatment/treatment",
         "pages/article/article",
         "pages/health/health"
-       
+        
     ],
     "window": {
         "backgroundTextStyle": "light",

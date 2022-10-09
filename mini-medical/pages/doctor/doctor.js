@@ -1,16 +1,11 @@
-// pages/my/my.js
+// pages/doctor/doctor.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        myobj:{
-            myData:['我的问诊','我的报告','预约记录','我的病例'],
-            myList:['支付记录','我的收藏']
-        }
-       
-       
+
     },
 
     /**
@@ -19,6 +14,12 @@ Page({
     onLoad(options) {
 
     },
+    onShareAppMessage() {
+        return {
+          title: 'button',
+          path: 'page/component/pages/button/button'
+        }
+      },
 
     /**
      * 生命周期函数--监听页面初次渲染完成

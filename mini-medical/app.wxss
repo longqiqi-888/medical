@@ -12,3 +12,16 @@
 page{
     background-color:#ECECEC;
 }
+
+.my-container{
+    
+    margin-top: 10rpx;
+    padding: 25rpx 50rpx;
+    border: 1rpx solid #eee;
+    font-size: 32rpx;
+}
+
+.flex-alcenter{
+    display: flex;
+    align-items: center;
+}
