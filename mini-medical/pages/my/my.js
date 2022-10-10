@@ -6,8 +6,34 @@ Page({
      */
     data: {
         myobj:{
-            myData:['我的问诊','我的报告','预约记录','我的病例'],
-            myList:['支付记录','我的收藏']
+            id:1,
+            myData:[{
+                name:'我的问诊',
+                id:1,
+                goTab:'treatment'
+            },
+            {
+                name:'我的报告',
+                id:2,
+                goTab:'report'
+            },{
+                name:'预约记录',
+                id:3,
+                goTab:'appointment'
+            },{
+                name:'我的病例',
+                id:4,
+                goTab:'case'
+            }],
+            myList:[{
+                name:'支付记录',
+                id:1,
+                goTab:'paymentRecord'
+            },{
+                name:'我的收藏',
+                id:2,
+                goTab:'collect'
+            }]
         }
        
        
@@ -19,7 +45,36 @@ Page({
     onLoad(options) {
 
     },
-
+    treatment(){
+        wx.navigateTo({
+          url: '../treatment/treatment',
+        })
+    },
+    report(){
+        wx.navigateTo({
+          url: '../report/report',
+        })
+    },
+    appointment(){
+        wx.navigateTo({
+          url: '../appointment/appointment',
+        })
+    },
+    case(){
+        wx.navigateTo({
+          url: '../case/case',
+        })
+    },
+    paymentRecord(){
+        wx.navigateTo({
+          url: '../paymentRecord/paymentRecord',
+        })
+    },
+    collect(){
+        wx.navigateTo({
+          url: '../collect/collect',
+        })
+    },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

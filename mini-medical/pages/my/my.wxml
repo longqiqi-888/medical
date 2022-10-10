@@ -10,20 +10,20 @@
 
 </view>
 <view class="container-list " >
-    <view class="my-container"  wx:for="{{myobj.myData}}">
-    <view class="con-item">
-        <text class="con-text"> {{item}} </text>
-        <view class="con-go"> > </view>
+    <view class="my-container"  wx:for="{{myobj.myData}}" wx:key="index">
+    <view class="con-item" bindtap="{{item.goTab}}">
+        <text class="con-text"> {{item.name}} </text>
+        <view class="con-go" > > </view>
     </view>
 </view>
 
 </view>
 
 <view class="container-my-list">
-    <view class="my-container"  wx:for="{{myobj.myList}}">
-    <view class="con-item">
-        <text class="con-text"> {{item}} </text>
-        <view class="con-go"> > </view>
+    <view class="my-container"  wx:for="{{myobj.myList}}" wx:key="index">
+    <view class="con-item" bindtap="{{item.goTab}}">
+        <text class="con-text"> {{item.name}} </text>
+        <view class="con-go" > > </view>
     </view>
     </view>
 </view>

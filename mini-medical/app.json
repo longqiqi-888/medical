@@ -1,7 +1,7 @@
 {
     "pages": [
-        "pages/doctor/doctor",
         "pages/my/my",
+        "pages/doctor/doctor",
         "pages/index/index",
         "pages/login/login",
         "pages/logs/logs",
@@ -10,12 +10,14 @@
         "pages/report/report",
         "pages/treatment/treatment",
         "pages/article/article",
-        "pages/health/health"
-        
+        "pages/health/health",
+        "pages/case/case",
+        "pages/paymentRecord/paymentRecord",
+        "pages/collect/collect"
     ],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#109ECC",
+        "navigationBarBackgroundColor": "#5EB6D8",
         "navigationBarTitleText": "首页",
         "navigationBarTextStyle": "black"
     },
