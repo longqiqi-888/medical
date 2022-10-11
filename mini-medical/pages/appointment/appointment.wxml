@@ -1,2 +1,27 @@
 <!--pages/appointment/appointment.wxml-->
-<text>pages/appointment/appointment.wxml</text>
+<view class="appointment">  
+    <view class="title">选择的医院</view>
+
+    <!-- <view class="seach">搜索</view> -->
+
+    <view class="container">
+        <view class="container-left">
+            <ul>
+                <li>xxx</li>
+                <li>xxx</li>
+                <li>xxx</li>
+            </ul>
+        </view>
+        <view class="container-right">
+           <ul>
+                <li>
+                    <text>xxx</text>
+                    <button class="btn" size="mini">挂号</button>
+                </li>
+                <li>xxx</li>
+                <li>xxx</li>
+           </ul>
+           
+        </view>
+    </view>
+</view>

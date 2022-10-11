@@ -1,12 +1,12 @@
 {
     "pages": [
+        "pages/appointment/appointment",
         "pages/my/my",
         "pages/doctor/doctor",
         "pages/index/index",
         "pages/login/login",
         "pages/logs/logs",
         "pages/register/register",
-        "pages/appointment/appointment",
         "pages/report/report",
         "pages/treatment/treatment",
         "pages/article/article",
