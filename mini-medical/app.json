@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/appointmentDoctor/appointmentDoctor",
         "pages/appointment/appointment",
         "pages/my/my",
         "pages/doctor/doctor",
@@ -14,6 +15,7 @@
         "pages/case/case",
         "pages/paymentRecord/paymentRecord",
         "pages/collect/collect"
+        
     ],
     "window": {
         "backgroundTextStyle": "light",

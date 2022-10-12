@@ -1,0 +1,53 @@
+<!--pages/appointmentDoctor/appointmentDoctor.wxml-->
+<view class="appointment-doctor">
+<view class="data-month">2020-08</view>
+    <view class="date-box">
+        <ul class="date-ul">
+            <li>
+                <text>08</text>
+                <text>四</text>
+            </li>
+            <li>xxxx</li>
+            <li>xxxx</li>
+        </ul>
+        <!-- <view class="date-show">></view> -->
+    </view>
+
+    <view class="container">
+        <view class="doctor">
+            <view class="doctor-info">
+                <image class="doctor-img"></image>
+                <view class="doctor-msg">
+                    <view class="doctor-name">主治医生</view>
+                    <view class="doctor-appointment">挂号量</view>
+                    <view class="doctor-rate">评分</view>
+                </view>
+            </view>
+            <view class="registration-total">
+                <view class="rg-date">2021-9-18(星期几)</view>
+                <view class="rg-time">上午</view>
+                <view class="rg-money">￥4.00</view>
+                <button class="rg-btn" size="mini">余49/总50</button>
+            </view>
+        </view>
+    </view>
+
+    <view class="container">
+        <view class="doctor">
+            <view class="doctor-info">
+                <image class="doctor-img"></image>
+                <view class="doctor-msg">
+                    <view class="doctor-name">主治医生</view>
+                    <view class="doctor-appointment">挂号量</view>
+                    <view class="doctor-rate">评分</view>
+                </view>
+            </view>
+            <view class="registration-total">
+                <view class="rg-date">2021-9-18(星期几)</view>
+                <view class="rg-time">上午</view>
+                <view class="rg-money">￥4.00</view>
+                <button class="rg-btn" size="mini">余49/总50</button>
+            </view>
+        </view>
+    </view>
+</view>
