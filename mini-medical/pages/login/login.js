@@ -12,6 +12,20 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
+        //我们可以判断一下  如果用户授权了的话
+
+        // 获取code 给后台传的
+        //我们就通过wx.login({})来写登录事件
+        wx.login({
+          success: res => {//成功的回调
+             console.log(res);
+            //获取到临时的凭证code码
+            //我们这里把code赋值给一个变量
+           
+          }
+        })
+
+  
 
     },
     onSubmit(){
